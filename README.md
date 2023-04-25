@@ -5,7 +5,7 @@
 <br>
 <b>Background:</b> My commissioning clients requests:  
 Client 1) To automate web browser test cases for their website; <br>
-Client 2) A data acquisition (scraping) solution. <br>
+Client 2) A data acquisition (scraping) solution e.g. supplier product prices. <br>
 <br>
 <b>Problem:</b> ..............................................................................:<br>
 • To automate (and simulate) tests such as tapping on a button, entering content to the structures etc;<br>
