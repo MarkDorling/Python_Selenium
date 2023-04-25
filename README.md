@@ -28,7 +28,8 @@ Please see the commented code for more details on how it works.<br>
 <b>Config overview:</b><br>
 • conda version : 23.3.1<br>
 • conda-build version : 3.23.3<br>
-• Python version : 3.9.16 <br>
+• Python version : 3.11.3 <br>
+• Pip version : 23.0.1 <br>
 • Requirements.txt <i>contains all library, packages and modules information</i>
 
 
