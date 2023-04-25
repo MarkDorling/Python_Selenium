@@ -3,7 +3,7 @@
 <br>
 <i>This is an anonymised project that combines code written for two unrelated projects for clients in 2022.</i><br>
 <br>
-<b>Background:</b> My commissioning clients requests: <br>  
+<b>Background:</b> My commissioning clients requests:  
 Client 1) To automate test cases for web browsers to simulate tests such as tapping on a button, entering content to the structures,  etc. <br>
 Client 2) A data acquisition solution; <br><br>
 
