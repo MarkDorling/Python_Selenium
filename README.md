@@ -4,11 +4,11 @@
 <i>This is an anonymised project that combines code written for two unrelated projects for clients in 2022.</i><br>
 <br>
 <b>Background:</b> My commissioning clients requests:  
-Client 1) To automate test cases for web browsers; <br>
+Client 1) To automate web browser test cases for their website; <br>
 Client 2) A data acquisition (scraping) solution. <br>
 <br>
-<b>Problem:</b> :<br>
-• To automate (and simulate) tests such as tapping on a button, entering content to the structures etc;
+<b>Problem:</b> ..............................................................................:<br>
+• To automate (and simulate) tests such as tapping on a button, entering content to the structures etc;<br>
 • To prevent the IP address being blocked due to multiple visits to the same website;<br>
 • To Maintain IP address privacy;<br>
 • To scrape and store data acquired in a json file;<br>
