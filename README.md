@@ -19,7 +19,7 @@ Client 2) A data acquisition (scraping) solution. <br>
 • Setting browser size;<br>
 • Logging-in and out;<br>
 • Rejecting pop-ups;<br>
-• Navigating between pages using weblinks;<br>
+• Navigating between pages using weblinks (using xpath);<br>
 • Using the browser 'Back' button;<br>
 • Scrapping data (using xpath);<br>
 • Closing the browser.<br>
