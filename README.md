@@ -4,18 +4,26 @@
 <i>This is an anonymised project that combines code written for two unrelated projects for clients in 2022.</i><br>
 <br>
 <b>Background:</b> My commissioning clients requests:  
-Client 1) To automate test cases for web browsers to simulate tests such as tapping on a button, entering content to the structures,  etc. <br>
-Client 2) A data acquisition solution; <br><br>
-
-<b>Problem:</b> The rapid development of new scripts required menus to be continually updated (adding, removing, and reordering menu items) leading to:<br>
-• Continuity issues between menu options and associated functions;<br>
-• Lengthy and inelegant code;<br>
-• Duplication of menu related code;<br>
-• Errors in program structure.<br>
+Client 1) To automate test cases for web browsers; <br>
+Client 2) A data acquisition (scraping) solution. <br>
 <br>
-<b>Client solution - Main:</b> I created a command line menu system underpinned by a dictionary data structure. The main menu, all sub-menus and menu items (menu option descriptions and associated function names) are stored in the dictionary. Please see the commented code for more details on how it works.<br>
+<b>Problem:</b> :<br>
+• To automate (and simulate) tests such as tapping on a button, entering content to the structures etc;
+• To prevent the IP address being blocked due to multiple visits to the same website;<br>
+• To Maintain IP address privacy;<br>
+• To scrape and store data acquired in a json file;<br>
 <br>
-<b>Generalised solution - Branch <i>( Generalised version with dynamic module names)</i>:</b> This is a generalised version of the main project that uses dynamic module names. In particular, the names of the dynamic module names (e.g. generic_tasks.py and generic_dictionary.py) are passed as arguments directly into the display_menu function within the interface.py; This allows this command line project to be used by anyone with their own dictionary and tasks py files. Furthermore, I also removed the selected_menu_number from the argument passed into the display_menu function within the interface.py; instead the variable is declared (with first number number) before the while loop; the selected_menu_number variable is updated within the loop as previously. <br>
+<b>Client solution - Main:</b> I created a Python 3 with Selenium script. The structure of script encourages generalisation for use in other projects easier. It includes functions for: <br>
+• Anonymised opening of the web browser (using a proxy server);<br>
+• Applying delays (varying lengths) between actions;<br>
+• Setting browser size;<br>
+• Logging-in and out;<br>
+• Rejecting pop-ups;<br>
+• Navigating between pages using weblinks;<br>
+• Using the browser 'Back' button;<br>
+• Scrapping data;<br>
+• Closing the browser.<br>
+Please see the commented code for more details on how it works.<br>
 <br>
 <b>Config overview:</b><br>
 • conda version : 23.1.0<br>
