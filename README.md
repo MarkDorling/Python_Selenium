@@ -13,15 +13,15 @@ Client 2) A data acquisition (scraping) solution. <br>
 • To Maintain IP address privacy;<br>
 • To scrape and store data acquired in a json file;<br>
 <br>
-<b>Client solution:</b> I created a Python 3 with Selenium script. The structure of script encourages generalisation for use in other projects easier. It includes functions for: <br>
+<b>Client solution:</b> I created a Python 3 with Selenium (using xpath) script. The structure of script encourages generalisation for use in other projects easier. It includes functions for: <br>
 • Anonymised opening of the web browser (using a proxy server);<br>
 • Applying delays (varying lengths) between actions;<br>
 • Setting browser size;<br>
 • Logging-in and out;<br>
 • Rejecting pop-ups;<br>
-• Navigating between pages using weblinks (using xpath);<br>
+• Navigating between pages using weblinks;<br>
 • Using the browser 'Back' button;<br>
-• Scrapping data (using xpath);<br>
+• Scrapping data;<br>
 • Closing the browser.<br>
 Please see the commented code for more details on how it works.<br>
 <br>
